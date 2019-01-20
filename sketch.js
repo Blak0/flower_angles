@@ -7,7 +7,7 @@ function setup() {
     createCanvas(3100, 1430);
     angleMode(DEGREES);
     colorMode(HSB, 360); // HUE (TYPE OF COLOR), SATURATION, BRIGHTNESS
-    a = 137.5
+    a = 137.508
 }
 
 function draw() {
