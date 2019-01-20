@@ -15,7 +15,7 @@ function draw() {
 
     c = 8;
     n = 1;
-    num_of_petals = 10000;
+    num_of_petals = 100000;
 
     for (var n = 1; n < num_of_petals; n++) {
         angle = n * a;
