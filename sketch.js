@@ -7,7 +7,7 @@ function setup() {
     createCanvas(3100, 1430);
     angleMode(DEGREES);
     colorMode(HSB, 360); // HUE (TYPE OF COLOR), SATURATION, BRIGHTNESS
-    a = 1
+    a = 137.5
 }
 
 function draw() {
@@ -27,7 +27,6 @@ function draw() {
         x = r * cos(angle);
         y = r * sin(angle);
 
-        //funny color equations:
         /*
         n % 360
         (r*n) % 360
@@ -50,5 +49,4 @@ function draw() {
 
     var txt = a + ' deg.\n' + (a / 180).toFixed(2) + 'π rad.'
     text(txt, 50, 100)
-    a += 1;
 }
