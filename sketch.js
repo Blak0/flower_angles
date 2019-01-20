@@ -33,7 +33,7 @@ function draw() {
         angle % 360
         
         */
-        fill(angle % 360, 360, 360, 360); //set color
+        fill(n % 360, 360, 360, 360); //set color
         noStroke()
         push();
         translate(width / 2, height / 2);
